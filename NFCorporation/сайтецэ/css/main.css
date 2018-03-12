@@ -58,9 +58,17 @@ nav {
     color: #fff;
 }
 
-h1 {
+.h1 {
     margin-top: 50px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 20px;
 }
