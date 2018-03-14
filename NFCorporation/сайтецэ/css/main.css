@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     padding: 0;
     margin: 0;
     color: #222222;
@@ -52,23 +52,91 @@ nav {
 
 .title1 {
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 90px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
 }
 
 .h1 {
-    margin-top: 50px;
+    margin-top:40px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 150px;
     text-align: center;
     text-transform: uppercase;
     color: #000;
     font-size: 20px;
+}
+
+.images {
+    margin-top: 120px;
+     display: block;
+}
+
+.images_item1 {
+    border-radius: 25px;
+    width: 605px;
+    height: 380px;
+    float: left;
+    text-align: center;
+    background: url(../img/shturmovik.jpg) no-repeat center top / cover;
+    margin-left: 80px;
+}
+
+.images_item2 {
+    background: url(../img/sadovnik.jpg) no-repeat center top / cover;
+    width: 605px;
+    height: 380px;
+    float: right;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 80px;
+}
+
+.images_item3 {
+    background: url(../img/sniper-shturm.jpg) no-repeat center top / cover;
+    width: 605px;
+    height: 380px;
+    margin-top: 120px;
+    border-radius: 25px;
+    float: left;
+    margin-left: 80px;
+}
+
+.images_item4 {
+    background: url(../img/tanki.jpg) no-repeat center top / cover;
+    width: 605px;
+    height: 380px;
+    float: right;
+    border-radius: 25px;
+    margin-top: 120px;
+    margin-right: 80px;
+
+}
+
+.end {
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    height: 100vh;
+    display: block;
+}
+
+footer {
+        background: url(../img/footer.jpg) no-repeat center top / cover; 
+}
+
+
+
+.rt {
+    padding-top:60px;
+}
+.p {
+    float: left;
 }
