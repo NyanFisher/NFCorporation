@@ -1,3 +1,4 @@
+
 body {
     font-family: Verdana, sans-serif;
     padding: 0;
@@ -143,15 +144,16 @@ footer {
 }
 
 img#imgIn {
+    top:2535px;
     height: 100px;
     width: 100px;
     left: 30px;
-    top: 2535px;
     position: absolute;
     cursor: pointer;
 }
 
 img#imgVk {
+    top:2530px;
     left: 10px;
     height: 100px;
     width: 100px;
@@ -160,9 +162,11 @@ img#imgVk {
 }
 
 #Social {
+    
     height: 300px;
     width: 400px;
     position: absolute;
+    top:2530px;
     left: 100.1%;
 }
 
@@ -179,7 +183,12 @@ img#imgVk {
 #inpA {
     padding: 25px;
 }
-
+#kek{
+    padding: 0 auto;
+    top: 2530px;
+    height: 400px;
+    box-sizing: border-box;
+}
 #inpB {
     margin: 20px 0 0 0;
     padding: 30px;

@@ -3,6 +3,7 @@ var ck = true;
 // Слздание нового блока Social, принимает блок в которые необходимо записать, блок прописывается в функции al в качестве параметра 'Div'. Перед этим в CSS сделать стиль этого блока
 //----------------------------------------------
 function createDiv(blockDiv) {
+    
     var newDiv = document.createElement('div');
     newDiv.setAttribute('id', 'Social');
     document.getElementById(blockDiv).appendChild(newDiv);
@@ -30,24 +31,24 @@ function removeDiv() {
 //Анимация картинки, функция принимает id картинки и блок(div) в который необходимо записать Анимацию появления нового блока.
 //----------------------------------------------
 
-function animateSocial(id,Div) {     
+function animateSocial(id, Div) {
     if (ck) {
-        $('img#'+id).animate({    
+        $('img#' + id).animate({
             'left': '12',
             'top': '2630',
             'opacity': '1'
         }, 500);
         createDiv(Div);
         animateDiv();
-        ck = false;   
+        ck = false;
     } else {
-        $('img#'+id).animate({
+        $('img#' + id).animate({
             'left': '30',
             'top': '2535',
             'opacity': '1'
         }, 500);
         animateDiv();
-        setTimeout(removeDiv,100);
+        setTimeout(removeDiv, 100);
         ck = true;
     }
 }
