@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>nikitOst</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="script/jquery-3.3.1.js"></script>
+    <script src="script/script.js"></script>
 </head>
    <body>
     <header>
@@ -64,11 +66,13 @@
     </section>
     <footer>
         <div class="footer clearfix">
-            <div class="end">
+            <div class="end" id="end">
                 <h1 class="rt"> Ах да, забыл представиться, меня зовут Никита Алдохин</h1>
                 <h2>Вы можете найти меня в соц сетях</h2>
                 <h3>Спасибо вам за ваше внимание!</h3>
-                <p class="p">Тут ещё должны быть ссылочки.</p>
+<!--                <p class="p">Тут ещё должны быть ссылочки.</p>     сделал ссылочки-->
+               <img src="img/vk.png" id="imgVk" alt="">
+               <img src="img/instagram.png" id="imgIn" alt="" onclick="animateSocial('imgIn','end')">
             </div>
         </div>
     </footer>
